@@ -1,0 +1,50 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/fundo.jpg);
+}
+
+.login form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgb(9, 1, 244,, 0.3);
+    width: 25vw;
+    height: 25vh;
+    border-radius: 5%;
+    box-shadow: 5px 5px 100px 40px rgb(15, 43, 128);
+ 
+}
+.login input {
+   width: 20vw;
+   height: 4vh;
+   border-radius: 4px;
+}
+.login label {
+    font-size: 30px;
+    color: #aeffbd;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.login button {
+    width: 10vw;
+    height: 5vh;
+    border-radius: 5px;
+    background-color: rgb(0, 253, 127) ;
+}
+
+.criar {
+    color: white;
+}
